@@ -482,9 +482,49 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <button type="button" class="btn btn-sm btn-outline-secondary mt-2">
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-secondary mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Contattaci
             </button>
+            <!-- MODAL -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Contatti
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">contactus@gmail.com</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FINE MODAL -->
           </div>
           <div class="col-12 text-center mb-0 mt-3">
             <p class="text-white">© Kalina travel LTD. All rights reserved</p>

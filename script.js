@@ -20,5 +20,3 @@ hideS[1].addEventListener("click", function () {
     hideCards2[i].classList.toggle("d-none");
   }
 });
-
-// Contare i viaggi disponibili
